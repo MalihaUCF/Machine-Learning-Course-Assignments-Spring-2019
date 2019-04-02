@@ -61,10 +61,10 @@ This folder contains solution to the 2nd machine learnign assignment, UCF Spring
 
 We also experimented with different **optimizers** mainly 
 
-1) RMSprop
-2) SGD
-3) Adam
-4) Adagrad
+> 1) RMSprop
+> 2) SGD
+> 3) Adam
+> 4) Adagrad
 
 We also tweaked the learning rate ranging from
 *1e-1 to 1e-6*
