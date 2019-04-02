@@ -1,4 +1,7 @@
-This folder contains solution to the 2nd machine learnign assignment, UCF Spring 2019.
+This folder contains solutions to our second Machine Learning assignment. 
+
+###### Maliha Arif
+###### UCF ID : 4506817
 
 
 ## Models used:
@@ -73,9 +76,31 @@ We also tweaked the learning rate ranging from
 
 
 
-Through multiple experiments, we observed that Adam optimizer with a leanring rate of 1e-3 was working best and which we used to train all the 4 models.
+Through multiple experiments, we observed that Adam optimizer with a learning rate of 1e-3 was working best and which we used to train all the 4 models.
 
 [Model 1](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Final1_CNN_5.ipynb)
+
+[Model 2]()
+
+[Model 3]()
+
+[Model 4]()
+
+
+
+We performed the above experiments for 30 epochs and then picked model 1 which gave the higest accuracy till then. We then used that model and trained it for 200 epochs
+
+The **link** to this notebook is [Best_Model]()
+
+
+For the above models, we were employing simple hold out validation. For K-fold validation, we chose this best model and then applied k -fold validation. 
+
+
+
+
+### K-fold Validation
+
+- We trained our models using our defined k-fold function as follows :
 
 
 
