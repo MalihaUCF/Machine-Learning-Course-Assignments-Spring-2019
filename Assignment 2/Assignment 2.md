@@ -73,6 +73,12 @@ We also tweaked the learning rate ranging from
 
 
 
+Through multiple experiments, we observed that Adam optimizer with a leanring rate of 1e-3 was working best and which we used to train all the 4 models.
+
+[Model 1] (https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Final1_CNN_5.ipynb)
+
+
+
 
 
 
