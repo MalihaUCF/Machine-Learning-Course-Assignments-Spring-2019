@@ -130,7 +130,8 @@ We perform k-fold with k=5 and split create the validation set as shown below an
 
 
 
-#### Conclusion
+
+## Conclusion
 
 We observe that using k-fold does increase the average test accuracy but since our best model doesnt overfit, we get similar accuracy using hold validation too.
 
