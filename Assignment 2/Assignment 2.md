@@ -90,7 +90,7 @@ Through multiple experiments, we observed that Adam optimizer with a learning ra
 
 We performed the above experiments for 30 epochs and then picked model 1 which gave the higest accuracy till then. We then used that model and trained it for 200 epochs
 
-The **link** to this notebook is [Best_Model]()
+The **link** to this notebook is [Best_Model](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/More_120_epochs_CNN_5.ipynb)
 
 
 For the above models, we were employing simple hold out validation. For K-fold validation, we chose this best model and then applied k -fold validation. 
