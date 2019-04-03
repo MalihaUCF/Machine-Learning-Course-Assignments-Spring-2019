@@ -113,7 +113,7 @@ For the above models, we were employing simple hold out validation. For K-fold v
 - To create the training set, we append the remaining images in a list, the images before the validation block and after the validation block.
 
 
-We perform k-fold with k=5 and split create the valdidation set as shown below and explained above in the function description.
+We perform k-fold with k=5 and split create the validation set as shown below and explained above in the function description.
 
 
 <img width="833" alt="Screen Shot 2019-04-03 at 1 54 24 PM" src="https://user-images.githubusercontent.com/42460909/55501272-0f746180-5618-11e9-8caf-5f207be1f061.png">
@@ -129,6 +129,10 @@ We perform k-fold with k=5 and split create the valdidation set as shown below a
 
 
 
+
+#### Conclusion
+
+We observe that using k-fold does increase the average test accuracy but since our best model doesnt overfit, we get similar accuracy using hold validation too.
 
 
 
