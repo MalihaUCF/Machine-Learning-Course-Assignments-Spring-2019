@@ -78,13 +78,13 @@ We also tweaked the learning rate ranging from
 
 Through multiple experiments, we observed that Adam optimizer with a learning rate of 1e-3 was working best and which we used to train all the 4 models.
 
-[Model 1](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Final1_CNN_5.ipynb)
+[Model 1](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Model1.ipynb)
 
-[Model 2]()
+[Model 2](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Model2.ipynb)
 
-[Model 3]()
+[Model 3](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Model3.ipynb)
 
-[Model 4]()
+[Model 4](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Model4.ipynb)
 
 
 
