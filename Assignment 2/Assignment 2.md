@@ -103,6 +103,25 @@ For the above models, we were employing simple hold out validation. For K-fold v
 - We trained our models using our defined k-fold function as follows :
 
 
+> k_fold_dataset():
+
+
+- create a starting index and ending index 
+- the start index is multiplied with iteration number so that the start of the validation split is different each time
+- the step size is 10000 as that is the number of images we want in the validation fold for each iteration
+- we do not shuffle the list after the first iteration as the whole idea of k fold is prevent bias
+- to create the training set, we append the remaining images in a list, the images before the validation block and after the validation block.
+
+
+
+
+  
+
+
+
+
+
+
 [k-fold-model](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Final_k_fold_Model1.ipynb)
 
 
