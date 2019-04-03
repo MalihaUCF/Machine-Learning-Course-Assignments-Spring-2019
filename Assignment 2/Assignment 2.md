@@ -103,6 +103,8 @@ For the above models, we were employing simple hold out validation. For K-fold v
 - We trained our models using our defined k-fold function as follows :
 
 
+[k-fold-model](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Final_k_fold_Model1.ipynb)
+
 
 
 
