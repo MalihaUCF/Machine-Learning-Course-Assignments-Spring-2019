@@ -98,7 +98,7 @@ Through multiple experiments, we observed that Adam optimizer with a learning ra
 
 [Model 4](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Model4.ipynb)
 
-[Model 5]()
+[Model 5](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Model5.ipynb)
 
 
 We performed the above experiments for 30 epochs and then picked model 1 which gave the higest accuracy till then. We then used that model and trained it for 120 epochs.
