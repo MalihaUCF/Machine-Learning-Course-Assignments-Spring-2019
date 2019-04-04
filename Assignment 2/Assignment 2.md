@@ -108,9 +108,9 @@ The **link** to this notebook is [Best_Model1](https://github.com/MalihaUCF/Mach
 
 Till here, we are using separate train, validate and test split as instructed by the professor.
 
--Train= 40k images
--Validate= 10k images
--Test= 10k images
+- Train= 40k images
+- Validate= 10k images
+- Test= 10k images
 
 
 This gave us 65% test accuracy and we observed that as the epochs increased from 50 epochs or so, the model started to overfit. 
@@ -119,16 +119,16 @@ Hence we decided to use model 5 which seemed to fight overfitting better as it i
 
 We trained this other model for 120 epochs also and observed a significatly higher test accuracy. And the model did not overfit with increased number of iterations.
 
-The **link** to this notebook is [Best_Model2]()
+The **link** to this notebook is [Best_Model2](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/120_epochs_Model5.ipynb)
 
 
 Here also,we use 
 
--Train= 40k images
--Validate= 10k images
--Test= 10k images
+- Train= 40k images
+- Validate= 10k images
+- Test= 10k images
 
-and we acheived 87.2% test accuracy. The use of batch normalization, weight regularizer and data augmentation significantly helped the model learn better.
+and we acheived **87.2% test accuracy**. The use of batch normalization, weight regularizer and data augmentation significantly helped the model learn better.
 
 
 For the above models, we were employing simple hold out validation. For K-fold validation, we chose the 2 best models and then applied k -fold validation. 
@@ -165,6 +165,9 @@ We perform k-fold with k=5 and split create the validation set as shown below an
 
 [k-fold-model](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/Final_k_fold_Model1.ipynb)
 
+### K-fold link1 - giving average 86 % accuracy
+
+
 [k-fold-model2]()
 
 
@@ -172,9 +175,9 @@ This gives a higher accuracy as this model involves several features like batch 
 
 
 
-## Conclusion
+## Conclusion (modify )
 
-We observe that using k-fold does increase the average test accuracy but since our best model doesnt overfit, we get similar accuracy using hold validation too.
+We observe that using k-fold does increase the average test accuracy but since our best model 1 doesnt overfit, we get similar accuracy using hold validation too. 
 
 
 
