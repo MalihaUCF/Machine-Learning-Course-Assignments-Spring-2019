@@ -128,7 +128,7 @@ Here also,we use
 -Validate= 10k images
 -Test= 10k images
 
-and we acheived 87% test accuracy. The use of batch normalization, weight regulaizer and data augmentation significantly helped the model learn better.
+and we acheived 87.2% test accuracy. The use of batch normalization, weight regularizer and data augmentation significantly helped the model learn better.
 
 
 For the above models, we were employing simple hold out validation. For K-fold validation, we chose the 2 best models and then applied k -fold validation. 
