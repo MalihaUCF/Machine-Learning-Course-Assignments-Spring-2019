@@ -128,7 +128,7 @@ Here also,we use
 - Validate= 10k images
 - Test= 10k images
 
-and we acheived **87.2% test accuracy**. The use of batch normalization, weight regularizer and data augmentation significantly helped the model learn better.
+and we acheived **87.2% test accuracy** . The use of batch normalization, weight regularizer and data augmentation significantly helped the model learn better.
 
 
 For the above models, we were employing simple hold out validation. For K-fold validation, we chose the 2 best models and then applied k -fold validation. 
@@ -177,7 +177,9 @@ This gives a higher accuracy of **83 %** as this model involves several features
 
 ## Conclusion 
 
-We observe that using k fold cross validation is a good way of removing any bias in our validation, training and test split. More importantly the network models, both model 4 and model 5 , k-fold and simple hold out give comparable results with model 5 outperforming all models tested and giving very good test accuracy. 
+We observe that using k fold cross validation is a good way of removing any bias in our validation, training and test split. More importantly the network models, both model 4 and model 5 , k-fold and simple hold out give comparable results with model 5 outperforming all models tested and giving very good test accuracy of 
+
+### 87.2 %
 
 
 
