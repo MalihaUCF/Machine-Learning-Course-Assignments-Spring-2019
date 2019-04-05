@@ -168,16 +168,16 @@ We perform k-fold with k=5 and split create the validation set as shown below an
 ### K-fold link1 - giving average 86 % accuracy
 
 
-[k-fold-model2]()
+[k-fold-model2](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment%202/k_fold_Model5.ipynb)
 
 
-This gives a higher accuracy as this model involves several features like batch normalization, data augmentation etc that fight overfitting for longer epochs. Unlike best model 1 which does well for 40,50 epochs. 
+This gives a higher accuracy of **83 %** as this model involves several features like batch normalization, data augmentation etc that fight overfitting for longer epochs. Unlike best model 1 which does well for 40,50 epochs. 
 
 
 
 ## Conclusion (modify )
 
-We observe that using k-fold does increase the average test accuracy but since our best model 1 doesnt overfit, we get similar accuracy using hold validation too. 
+We observe that using k fold cross validation is a good way of removing any bias in our validation, training and test split. More importantly the network models, both model 4 and model 5 , k-fold and simple hold out give comparable results with model 5 outperforming all models tested and giving very good test accuracy. 
 
 
 
