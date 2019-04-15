@@ -99,7 +99,7 @@ We then visualize second layer activation and final layer activation.
 
 Further, we only use 1 cat validation image and 1 dog validation image and also visulaize the activations using 'plasma' cmap for clearer outline.
 
-##### t-SNE
+## t-SNE
 
 Lastly ,we create a t-SNE visualization for the final dense layer of our model. We extract fc2- second dense layer of our classifier and create a test set using 500 cats and 500 dogs images.
 
