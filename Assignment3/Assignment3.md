@@ -69,7 +69,7 @@ Do fine-tuning with data augmentation.
 
 In this part of the assignment , we were allowed to train the last conv layers of VGG-19 model, hence we fine tuned the model we used in problem 1.
 
-We observed a significant increase in our validation score. We were able to get **95% validation** accuracy and no overfitting.
+We observed a significant increase in our validation score. We had to tweak our learning rate which we decreased to 1e-5, using same RMSprop optimizer. We were able to get **95% validation** accuracy and no overfitting.
 
 
 [Problem 2 solution](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem2_HW3_functionalAPI.ipynb)
@@ -80,6 +80,9 @@ We observed a significant increase in our validation score. We were able to get 
 
 Visualize heatmaps of class activation for the the model obtained in Problem 2.
 
+We used our trained model 'cats_and_dogs_fine_tuning_functionalAPI.h5'  to create heatmaps and see what the final conv layer of our model has learned. We observe that the conv layer uses features like cats face and a dogs face to distinguish between the 2 animals.
+
+We visualize heatmaps for 5 cat and 5 dog images.
 
 [Heat_map](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem3_Visualize_Class_Activations.ipynb)
 
@@ -88,6 +91,19 @@ Visualize heatmaps of class activation for the the model obtained in Problem 2.
 ### Problem 4
 
 Build an activation model that takes as input an image and produces as output the activation of the last conv layer of the model obtained in Problem 2. Using this activation model obtain the corresponding activations for the validation images. Apply t-SNE visualization to these activations to see how well the convnet separates cats from dogs.
+
+
+For this problem, we again use our trained model obtained in Problem 2 'cats_and_dogs_fine_tuning_functionalAPI.h5' and visualize the conv filters response and feature maps. We create an activaton model that takes an image as input and uses filter activation for each layer as output. We visualzie the output of 1 dog validation image for first layer activation for filter 4, then filter 19.
+
+We then visualize second layer activation and final layer activation. 
+
+Further, we only use 1 cat validation image and 1 dog validation image and also visulaize the activations using 'plasma' cmap for clearer outline.
+
+##### t-SNE
+
+Lastly ,we create a t-SNE visualization for the final dense layer of our model. We extract fc2- second dense layer of our classifier and create a test set using 500 cats and 500 dogs images.
+
+We are able to clearly see how well the classifier has learned.
 
 
 
