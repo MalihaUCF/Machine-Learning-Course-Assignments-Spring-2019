@@ -72,7 +72,7 @@ In this part of the assignment , we were allowed to train the last conv layers o
 We observed a significant increase in our validation score. We had to tweak our learning rate which we decreased to 1e-5, using same RMSprop optimizer. We were able to get **95% validation** accuracy and no overfitting.
 
 
-[Problem 2 solution](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem2_HW3_functionalAPI.ipynb)
+[Problem 2 solution](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem2_HW3_functionalAPI_100epochs.ipynb)
 
 ---
 ### Problem 3
