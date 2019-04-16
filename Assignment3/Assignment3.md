@@ -87,6 +87,10 @@ We visualize heatmaps for 5 cat and 5 dog images.
 [Heat_map](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem3_Visualize_Class_Activations.ipynb)
 
 
+Heatmap example
+
+<img width="500" alt="https://user-images.githubusercontent.com/42460909/56224935-688fbc80-603e-11e9-9044-00652c5db134.png">
+
 ---
 ### Problem 4
 
