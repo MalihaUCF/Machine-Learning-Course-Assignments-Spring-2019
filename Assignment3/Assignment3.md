@@ -117,7 +117,7 @@ We are able to clearly see how well the classifier has learned.
 
 
 
-[Problem 4 solution - Activations_and_ t-SNE visualization](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem4.ipynb)
+[Problem 4 solution - Activations_and_ t-SNE visualization](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem4-new.ipynb)
 
 
 **t-SNE plot**
