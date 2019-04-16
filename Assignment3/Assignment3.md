@@ -90,7 +90,9 @@ We visualize heatmaps for 5 cat and 5 dog images.
 
 
 ![heatmap-cat](https://user-images.githubusercontent.com/42460909/56224935-688fbc80-603e-11e9-9044-00652c5db134.png)
-Heatmap example
+
+**Heatmap example**
+
 ---
 ### Problem 4
 
