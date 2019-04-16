@@ -84,7 +84,7 @@ We used our trained model 'cats_and_dogs_fine_tuning_functionalAPI.h5'  to creat
 
 We visualize heatmaps for 5 cat and 5 dog images.
 
-[Heat_map](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem3_Visualize_Class_Activations.ipynb)
+[Problem 3 solution - Heat_map](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem3_Visualize_Class_Activations.ipynb)
 
 
 
@@ -113,7 +113,7 @@ We are able to clearly see how well the classifier has learned.
 
 
 
-[Activations_and_ t-SNE visualization](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem4.ipynb)
+[Problem 4 solution - Activations_and_ t-SNE visualization](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem4.ipynb)
 
 
 **t-SNE plot**
