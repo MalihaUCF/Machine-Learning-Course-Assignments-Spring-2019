@@ -89,7 +89,7 @@ We visualize heatmaps for 5 cat and 5 dog images.
 
 Heatmap example
 
-<img width="500" alt="https://user-images.githubusercontent.com/42460909/56224935-688fbc80-603e-11e9-9044-00652c5db134.png">
+![heatmap-cat](https://user-images.githubusercontent.com/42460909/56224935-688fbc80-603e-11e9-9044-00652c5db134.png)
 
 ---
 ### Problem 4
@@ -113,6 +113,10 @@ We are able to clearly see how well the classifier has learned.
 
 [Activations_and_ t-SNE visualization](https://github.com/MalihaUCF/Machine-Learning-Course-Assignments-Spring-2019/blob/master/Assignment3/Problem4.ipynb)
 
+
+**t-SNE plot**
+
+![t-SNE](https://user-images.githubusercontent.com/42460909/56225503-83166580-603f-11e9-9361-87ab90a288ef.png)
 
 
 
