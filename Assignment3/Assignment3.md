@@ -103,7 +103,11 @@ For this problem, we again use our trained model obtained in Problem 2 'cats_and
 
 We then visualize second layer activation and final layer activation. 
 
-Further, we only use 1 cat validation image and 1 dog validation image and also visulaize the activations using 'plasma' cmap for clearer outline.
+Further, we only use 1 cat validation image and 1 dog validation image and also visualize the activations using 'plasma' cmap for clearer outline.
+
+![conv](https://user-images.githubusercontent.com/42460909/56226798-0933ab80-6042-11e9-9362-a955e3db856e.png)
+
+
 
 ## t-SNE
 
